@@ -2003,6 +2003,12 @@ int_plt_mm <- mod_means %>% ggplot2::ggplot(ggplot2::aes(x = coadmin, y = 10^emm
                                  legend.text = ggplot2::element_text(size = 16),
                                  legend.position = "bottom")
 
+int_plt_mm
+```
+
+![](README_files/figure-gfm/unnamed-chunk-21-1.png)<!-- -->
+
+``` r
 ggsave(plot = int_plt_mm, filename = file.path(plot.dir,"png/Interaction_marginal_means_1.png"), device = "png", width = 6, height = 6, dpi = 300)
 ggsave(plot = int_plt_mm, filename = file.path(plot.dir,"svg/Interaction_marginal_means_1.svg"), device = "svg", width = 6, height = 6, dpi = 300)
 ```
@@ -2040,7 +2046,7 @@ abline(v = dw_stat, lwd = 3, col = "red")
 
 **Test statistic: *d =* 1.93**
 
-**P-value: *p =* 0.25**
+**P-value: *p =* 0.24**
 
 ### Normality of residuals
 
@@ -4068,7 +4074,12 @@ comb_plt_bottom <- cowplot::plot_grid(plotlist = plot_list[5:4], ncol = 2, rel_w
 
 comb_plt <- cowplot::plot_grid(comb_plt_top, comb_plt_bottom, nrow = 2, ncol = 1)
 
+comb_plt
+```
 
+![](README_files/figure-gfm/unnamed-chunk-30-1.png)<!-- -->
+
+``` r
 ggplot2::ggsave(plot = comb_plt, filename = file.path(plot.dir, "png", "Boxplot_other_categorical_factors.png"), device = "png",  width = 12, height = 8, dpi = 300)
 ggplot2::ggsave(plot = comb_plt, filename = file.path(plot.dir, "png/Combined_boxplotsl.png"), 
                 device = "png",  width = 12, height = 8, dpi = 300)

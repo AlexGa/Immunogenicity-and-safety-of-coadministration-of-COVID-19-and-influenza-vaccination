@@ -430,7 +430,7 @@ fisher_test_table(df = df_coad, gr_col = "coadmin", gr_row = "immune system")
 ```
 
 ### Plots: Age
-```{r, warning=FALSE, echo=TRUE, message=FALSE, comment=FALSE, results = 'hide', fig.width = 10, fig.height = 5}
+```{r, warning=FALSE, echo=TRUE, message=FALSE, comment=FALSE, results = 'hide', fig.width = 10, fig.height = 7}
 df_coad %>% ggplot2::ggplot(ggplot2::aes(x = age)) +
   ggplot2::facet_wrap(~coadmin) +
   ggplot2::geom_histogram(bins = 40, col = "black") +
@@ -490,6 +490,7 @@ df_coad %>% group_by(coadmin, vaccine) %>% count() %>% group_by(coadmin) %>% mut
                  legend.text = ggplot2::element_text(size = 12),
                  legend.position = "bottom") +
   ggplot2::guides(color = ggplot2::guide_legend(override.aes = list(shape = 22, size = 8, stroke = 1), ncol = 2))
+
 ggsave(filename = file.path(plot.dir,"png/Barplot_Vaccine.png"), device = "png", width = 6, height = 6, dpi = 300)
 ggsave(filename = file.path(plot.dir,"svg/Barplot_Vaccine.svg"), device = "svg", width = 6, height = 6, dpi = 300)
 ```
@@ -657,6 +658,7 @@ int_plt_mm <- mod_means %>% ggplot2::ggplot(ggplot2::aes(x = coadmin, y = 10^emm
                                  legend.text = ggplot2::element_text(size = 16),
                                  legend.position = "bottom")
 
+int_plt_mm
 ggsave(plot = int_plt_mm, filename = file.path(plot.dir,"png/Interaction_marginal_means_1.png"), device = "png", width = 6, height = 6, dpi = 300)
 ggsave(plot = int_plt_mm, filename = file.path(plot.dir,"svg/Interaction_marginal_means_1.svg"), device = "svg", width = 6, height = 6, dpi = 300)
 ```
@@ -1099,6 +1101,7 @@ comb_plt_bottom <- cowplot::plot_grid(plotlist = plot_list[5:4], ncol = 2, rel_w
 
 comb_plt <- cowplot::plot_grid(comb_plt_top, comb_plt_bottom, nrow = 2, ncol = 1)
 
+comb_plt
 
 ggplot2::ggsave(plot = comb_plt, filename = file.path(plot.dir, "png", "Boxplot_other_categorical_factors.png"), device = "png",  width = 12, height = 8, dpi = 300)
 ggplot2::ggsave(plot = comb_plt, filename = file.path(plot.dir, "png/Combined_boxplotsl.png"), 
