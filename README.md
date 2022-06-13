@@ -1,7 +1,7 @@
 # Immunogenicity and safety of coadministration of COVID-19 and influenza vaccination among healthcare workers
 
 
-Isabell Wagenhäuser<sup>1,2</sup>; Julia Reusch<sup>1,2</sup>; Alexander Gabel, PhD<sup>1</sup>; Anna Höhn<sup>1</sup>; Thiên-Trí Lâm, MD<sup>3</sup>; Giovanni Almanzar, MD<sup>4</sup>; Martina Prelog, MD<sup>4</sup>; Lukas B. Krone, MD, PhD<sup>5,6</sup>; Anna Frey, MD<sup>2</sup>; Alexandra Schubert-Unkmeir, MD<sup>3</sup>; Lars Dölken, MD<sup>7</sup>; Stefan Frantz, MD<sup>2</sup>; Oliver Kurzai, MD<sup>3,8</sup>; Ulrich Vogel, MD<sup>1,3</sup>; Nils Petri, MD<sup>2\*</sup>; Manuel Krone, MD, MScPH<sup>1,3\*</sup> <br /><br />  
+Isabell Wagenhäuser<sup>1,2</sup>; Julia Reusch<sup>1,2</sup>; Alexander Gabel, PhD<sup>1</sup>; Anna Höhn<sup>1</sup>; Thiên-Trí Lâm, MD<sup>3</sup>; Giovanni Almanzar, MD<sup>4</sup>; Martina Prelog, MD, MSc<sup>4</sup>; Lukas B. Krone, MD, PhD<sup>5,6</sup>; Anna Frey, MD<sup>2</sup>; Alexandra Schubert-Unkmeir, MD<sup>3</sup>; Lars Dölken, MD<sup>7</sup>; Stefan Frantz, MD<sup>2</sup>; Oliver Kurzai, MD<sup>3,8</sup>; Ulrich Vogel, MD<sup>1,3</sup>; Nils Petri, MD<sup>2\*</sup>; Manuel Krone, MD, MScPH<sup>1,3\*</sup> <br /><br />  
 
 **Affiliations:** <br />
 
@@ -11,8 +11,8 @@ Wuerzburg, Germany<br />
 University Hospital Wuerzburg, Wuerzburg, Germany<br /> 
 <sup>3</sup>
 Institute for Hygiene and Microbiology, University of Wuerzburg, Wuerzburg, Germany<br /> 
-<sup>4</sup> Department of Paediatrics,
-University of Wuerzburg, Wuerzburg, Germany<br /> 
+<sup>4</sup> Paediatric Rheumatology/Special Immunology, Department of Paediatrics, 
+University Hospital Wuerzburg, Wuerzburg, Germany <br /> 
 <sup>5</sup>
 Department of Physiology, Anatomy and Genetics, University of Oxford, Oxford, UK<br /> 
 <sup>6</sup> University Hospital of Psychiatry and Psychotherapy, University of Bern, Bern, Switzerland<br /> 
